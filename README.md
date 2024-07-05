@@ -20,4 +20,4 @@ This is a React-based timer application that allows users to set a countdown tim
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/react-timer-app.git
+   git clone https://github.com/Abdelrhman-Abdelmoaty22/countDown.git
