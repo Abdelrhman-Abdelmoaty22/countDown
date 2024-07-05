@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #282c34;
+  color: white;
+}
+
+.timer {
+  font-size: 8rem;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.arrows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.up-arrow, .down-arrow {
+  display: flex;
+  justify-content: center;
+}
+
+.up-arrow button, .down-arrow button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 8rem;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.controls button {
+  background-color: #61dafb;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 3rem;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.controls button:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+.controls button:hover:not(:disabled) {
+  background-color: #21a1f1;
+}
+
+
+.up-arrow button:disabled,.down-arrow button:disabled{
+  cursor: not-allowed;
+  color: gray;
+}
