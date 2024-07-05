@@ -43,22 +43,22 @@ This is a React-based timer application that allows users to set a countdown tim
 The main functionality of the timer is implemented in the App component (App.js). Below is an overview of the key parts of the code:
 
 ### State Variables
-- **`seconds`, `minutes`, `hours`: Store the current time values.
-- **`isActive`:Boolean to track if the timer is running.
-- **`isReady`:Boolean to check if the timer is ready to start.
-- **`isSPressed`, `isMPressed`, `isHPressed`: Booleans to track if the 's', 'm', and 'h' keys are pressed.
+- `seconds`, `minutes`, `hours`: Store the current time values.
+- `isActive`:Boolean to track if the timer is running.
+- `isReady`:Boolean to check if the timer is ready to start.
+- `isSPressed`, `isMPressed`, `isHPressed`: Booleans to track if the 's', 'm', and 'h' keys are pressed.
 
 ### useEffect Hooks
 
--**Timer interval management: Updates the timer every second when active.
--**Key press handlers: Manage the state of key presses and execute corresponding functions.
+- Timer interval management: Updates the timer every second when active.
+- Key press handlers: Manage the state of key presses and execute corresponding functions.
 
 ### Callback Functions
 
--**`toggleTimer`: Start or pause the timer.
--**`resetTimer`: Reset the timer to zero.
--**`upSeconds`, `upMinutes`, `upHours`: Increase the timer values.
--**`downSeconds`, `downMinutes`, `downHours`: Decrease the timer values.
+- `toggleTimer`: Start or pause the timer.
+- `resetTimer`: Reset the timer to zero.
+- `upSeconds`, `upMinutes`, `upHours`: Increase the timer values.
+- `downSeconds`, `downMinutes`, `downHours`: Decrease the timer values.
 
 ### Keyboard Shortcuts
 The keyboard shortcuts are handled using `useEffect` hooks which listen for `keydown` and `keyup` events to set the state of key presses and trigger the appropriate timer adjustments.
