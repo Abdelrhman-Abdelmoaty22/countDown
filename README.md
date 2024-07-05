@@ -2,6 +2,9 @@
 
 This is a React-based timer application that allows users to set a countdown timer with hours, minutes, and seconds. The timer can be controlled via buttons as well as keyboard shortcuts.
 
+![Timer Application Screenshot](Screenshot 2024-07-05 172717.png)
+
+
 ## Features
 
 - **Timer Control Buttons**: Increase or decrease the timer values using on-screen buttons.
